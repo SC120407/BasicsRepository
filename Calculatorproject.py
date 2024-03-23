@@ -44,36 +44,9 @@ def calc():
         print("Invalid operation")
 
 calc()
-
-"""
-#First number input
-num_1 = float(input("First Number: "))
-#Second number input
-num_2 = float(input("Second Number: "))
-
-operation = (input("Operation: "))
-print("addition: +")
-print("subtraction: -")
-print("multiplication: *")
-print("division: /")
-print("exponent: ^")
-print("floor dision: //")
-print("modulo: mod")
-
-if operation == "+":
-    print(num_1 + num_2)
-elif operation == "-":
-    print(num_1 - num_2)
-elif operation == "*":
-    print(num_1 * num_2)
-elif operation == "/":
-    print(num_1 / num_2)
-elif operation == "^":
-    print(num_1 ** num_2)
-elif operation == "//":
-    print(num_1 // num_2)
-elif operation == "mod":
+Choice = input.("Enter Your Expression:")
+print(eval(Choice))
     print(num_1 % num_2)
 else:
     print("Invalid operation")
-"""
+
